@@ -1,0 +1,267 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  right: auto;
+}
+
+.navbar-brand:hover{
+  color: red !important;
+}
+
+.nav-link:hover{
+  color: red !important;
+}
+
+.background-image{
+  width: 100%;
+}
+
+.everything-container{
+  z-index: 1
+}
+
+
+
+.lore{
+  margin-top: -60%;
+  color: pink;
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  padding-bottom: 20%;
+  padding-top: 1%;
+  position:sticky;
+}
+
+
+
+.popis{
+  width: 80%;
+  text-align: block;
+  margin-left: auto;
+  font-size: 2.5vw;
+  font-family: 'Courier Prime', monospace;
+  padding-top: 4%;
+}
+
+.odrazky{
+  width: 50%;
+  font-size: 1.5vw;
+  margin-left: auto;
+  font-family: 'Courier Prime', monospace;
+}
+
+h1{
+  color: white;
+  font-size: 6vw !important;
+  position: sticky;
+}
+
+.loreipsium{
+padding-top: 12%;
+font-family: 'Courier Prime', monospace;
+color: grey;
+font-size: 1.3rem;
+text-align: justify;
+}
+
+p{
+  margin-right: 8%;
+}
+
+.text-container{
+  padding-top: 4%;
+}
+
+.profile-image{
+width: 65%;
+margin-bottom: 15%;
+margin-top: 15%;
+margin-left: 8%;
+}
+
+@media (max-width:1200px){
+  .profile-image{
+    margin-bottom: 6%;
+    margin-top: 6%;
+    margin-left: 12%;
+  }
+  .loreipsium{
+    padding-top:4%;
+  }
+}
+
+@media (max-width:991px){
+  .profile-image{
+    margin: auto;
+    padding-top: 6%;
+  }
+  .loreipsium{
+    padding-top:4%;
+  }
+  p{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+.ome-div{
+  padding-bottom: 6%;
+}
+
+
+.citat{
+  background-color: #0c3479;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.projekty{
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.project-div h1{
+  text-align: center;
+  color: black !important;
+}
+
+.cards-div{
+font-family: 'Courier Prime', monospace;
+}
+
+.skills-div{
+  background-color: #0c3479;
+  text-align: center;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.skill-content{
+  text-align: left;
+  padding-bottom: 5%
+}
+
+.progress{
+  width:60%;
+}
+
+
+.skills{
+  width: 100%;
+  padding: 0 20px;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 14px;
+  background: #d13639;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #f1f1f1;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+.contact{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.email {
+  font-size: 1.8rem;
+}
+
+.phone {
+  font-size: 1.8rem;
+}
+
+.email-div:hover{
+  color:red;
+}
+
+.phone-div:hover{
+  color:red;
+}
+.social-div{
+  padding-top: 5%;
+  text-align: center;
+}
+
+.social-icons{
+  padding-left:  6%;
+  padding-right: 6%;
+  padding-top: 4%;
+  padding-bottom: 9%;
+  color:black;
+}
+
+.social-icons:hover{
+  color:red;
+}
+
+#paticka{
+  font-size: 2rem ;
+  margin-top: -0.1px !important;
+}
+
+
+#paticka p{
+  font-size: 0.8rem
+}
